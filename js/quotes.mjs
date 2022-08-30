@@ -1,6 +1,6 @@
 const quotes = [
   {
-    quote: 'I never dreamed about success, I worked for it',
+    quote: 'I never dreamed about success, I worked for it.',
     author: 'Estee Lauder',
   },
   {
@@ -8,7 +8,7 @@ const quotes = [
     author: 'Paul Rand',
   },
   {
-    quote: 'Do not be afraid to give up the good to go for the great',
+    quote: 'Do not be afraid to give up the good to go for the great.',
     author: 'John D. Rockefeller',
   },
   {
@@ -23,22 +23,22 @@ const quotes = [
   },
   {
     quote:
-      'The fastest way to change yourself is to hang out with people who are already the way you want to be',
+      'The fastest way to change yourself is to hang out with people who are already the way you want to be.',
     author: 'REid Hoffman',
   },
   {
     quote:
-      'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations',
+      'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations.',
     author: 'Tim O Reilly',
   },
   {
     quote:
-      'Some people dream of success, while other people get up every morning and make it happen',
+      'Some people dream of success, while other people get up every morning and make it happen.',
     author: 'Wayne Huizenga',
   },
   {
     quote:
-      'The only thing worse than starting something and falling.. is not starting something',
+      'The only thing worse than starting something and falling.. is not starting something.',
     author: 'SEth Godin',
   },
   {
@@ -53,4 +53,4 @@ const $quote = document.getElementById('quote');
 const $author = document.getElementById('author');
 
 $quote.textContent = quote.quote;
-$author.textContent = quote.author;
+$author.textContent = `by ${quote.author}`;
