@@ -7,6 +7,9 @@ body {
   color: white;
 }
 
+/*
+ * Background Image
+ */
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,15 +21,24 @@ body {
   align-items: center;
 }
 
+/*
+ * Class for hide element
+ */
 .hidden {
   display: none;
 }
 
+/*
+ * Style clock
+ */
 #clock {
   font-size: 9em;
   margin: 0;
 }
 
+/*
+ * Style form for username
+ */
 #login {
   margin: 3em 0;
 }
@@ -39,11 +51,17 @@ body {
   color: white;
 }
 
+/*
+ * Style greetings
+ */
 #greeting {
   font-weight: normal;
   font-size: 4em;
 }
 
+/*
+ * Style weather
+ */
 #weather {
   position: absolute;
   top: 1.5em;
@@ -55,7 +73,11 @@ body {
   margin: 0;
 }
 
+/*
+ * Style input form for todo-list
+ */
 input {
+  /* this style is also applied to username input form */
   all: initial;
   border-bottom: 1px solid white;
 }
@@ -69,6 +91,9 @@ input {
   color: white;
 }
 
+/*
+ * Style todo list
+ */
 #todo-list {
   list-style: none;
   padding: 0;
@@ -81,6 +106,9 @@ input {
   padding-right: 0.3em;
 }
 
+/*
+ * Style quote
+ */
 footer {
   position: absolute;
   bottom: 1em;
@@ -93,6 +121,9 @@ footer * {
   margin: 0;
 }
 
+/*
+ * Style github icon
+ */
 a {
   position: absolute;
   bottom: 1.5em;
