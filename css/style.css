@@ -46,9 +46,13 @@ body {
 
 #weather {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 1.5em;
+  right: 1.5em;
   font-size: 1.5em;
+}
+
+#weather p {
+  margin: 0;
 }
 
 input {
@@ -87,4 +91,16 @@ footer {
 
 footer * {
   margin: 0;
+}
+
+a {
+  position: absolute;
+  bottom: 1.5em;
+  right: 1.5em;
+}
+
+i {
+  color: white;
+  font-size: 28px;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
 }
