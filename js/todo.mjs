@@ -63,6 +63,7 @@ function printTodoItem(newId, newTodo) {
 
   const $deleteBtn = document.createElement('button');
   $deleteBtn.textContent = '❌';
+  $deleteBtn.classList.add('deleteBtn');
   $deleteBtn.addEventListener('click', (e) => {
     const $target = e.target.parentNode;
     removeTodo(+$target.id);
@@ -71,8 +72,8 @@ function printTodoItem(newId, newTodo) {
 
   const $newTodo = document.createElement('li');
   $newTodo.id = newId;
-  $newTodo.appendChild($todoText);
   $newTodo.appendChild($deleteBtn);
+  $newTodo.appendChild($todoText);
 
   $todoList.appendChild($newTodo);
 }
