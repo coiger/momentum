@@ -4,6 +4,11 @@ const USERNAME_KEY = 'username';
 const $loginForm = document.getElementById('login');
 const $greeting = document.getElementById('greeting');
 
+/**
+ * Show greeting message on screen.
+ * Hide input form for getting username.
+ * @param {string} username
+ */
 function paintGreetings(username) {
   $greeting.textContent = `Hello ${username}`;
   $loginForm.classList.add(HIDDEN_CLASS);
